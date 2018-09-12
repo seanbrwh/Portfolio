@@ -3530,7 +3530,7 @@ input, select, textarea {
 	}
 	.fa-python:hover{
 		font-size: 8rem;
-		color:rgba(144, 144, 144, 0.5);
+		color:rgba(255,255,0,1);
 	}
 	.fa-git{
 		font-size: 8rem;
@@ -3538,7 +3538,7 @@ input, select, textarea {
 	}
 	.fa-git:hover{
 		font-size: 8rem;
-		color:rgba(144, 144, 144, 0.5);
+		color:rgba(255,69,0,.7);
 	}
 	.fa-linux{
 		font-size: 8rem;
@@ -3554,7 +3554,7 @@ input, select, textarea {
 	}
 	.fa-vuejs:hover{
 		font-size: 8rem;
-		color:rgba(144, 144, 144, 0.5);
+		color:rgba(34,139,34,.9);
 	}
 	.fa-angular{
 		font-size: 8rem;
@@ -3562,7 +3562,7 @@ input, select, textarea {
 	}
 	.fa-angular:hover{
 		font-size: 8rem;
-		color:rgba(144, 144, 144, 0.5);
+		color:rgba(225,0,0,.7);
 	}
 	hr{
 		width: 80%;
@@ -3570,4 +3570,7 @@ input, select, textarea {
 	}
 	#two h1{
 		margin-right: 100px;
+	}
+	a{
+		text-decoration: none;
 	}
