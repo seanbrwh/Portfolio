@@ -1,0 +1,27 @@
+/*
+	Photon by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+*/
+
+/* Header */
+
+	body.is-preload #header .inner {
+		-moz-transform: none;
+		-webkit-transform: none;
+		-ms-transform: none;
+		transform: none;
+		opacity: 1;
+	}
+
+		body.is-preload #header .inner .actions {
+			-moz-transform: none;
+			-webkit-transform: none;
+			-ms-transform: none;
+			transform: none;
+			opacity: 1;
+		}
+
+	body.is-preload #header:after {
+		opacity: 0;
+	}
