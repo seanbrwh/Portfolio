@@ -3575,7 +3575,6 @@ input, select, textarea {
 		text-decoration: none;
 		text-decoration-style:dotted;
 	}
-	.pop-up:hover{
-		transform: scale(1.5);
-		opacity: .9;		
+	img:hover{
+		transform: scale(1.5)
 	}
