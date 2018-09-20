@@ -2565,6 +2565,11 @@ input, select, textarea {
 			padding: 2.5em;
 			text-align: center;
 		}
+		ul.major-icons2 li {
+			display: inline-block;
+			padding: 1.5em;
+			text-align: center;
+		}
 
 			ul.major-icons li .icon {
 				-moz-transform: rotate(45deg);
@@ -2790,7 +2795,7 @@ input, select, textarea {
 /* Main */
 
 	.main {
-		padding: 6em 0 4em 0 ;
+		padding: 4em 0 2em 0 ;
 	}
 
 		.main.style1 {
@@ -3349,10 +3354,13 @@ input, select, textarea {
 
 		/* List */
 
-			ul.major-icons li {
-				padding: 1.5em;
-			}
-
+		ul.major-icons li {
+			padding: 1.5em;
+		}
+		ul.major-icons2 li {
+			padding: .7em;
+		}
+		
 				ul.major-icons li .icon {
 					height: 5em;
 					line-height: 5em;
