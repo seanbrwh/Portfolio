@@ -7,6 +7,10 @@
 	License: pixelarity.com/license
 */
 
+.round{
+	border-radius: 50%;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -3571,6 +3575,14 @@ input, select, textarea {
 	.fa-angular:hover{
 		font-size: 8rem;
 		color:rgba(225,0,0,.7);
+	}
+	.fa-php{
+		font-size: 8rem;
+		color:white;
+	}
+	.fa-php:hover{
+		font-size:8rem;
+		color:rgba(138,212,223,.7);
 	}
 	hr{
 		width: 80%;
