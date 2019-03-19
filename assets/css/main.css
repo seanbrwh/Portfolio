@@ -2365,7 +2365,6 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 0 0 2em 0;
 			width: 100%;
 		}
 
@@ -3594,7 +3593,4 @@ input, select, textarea {
 	a{
 		text-decoration: none;
 		text-decoration-style:dotted;
-	}
-	img:hover{
-		transform: scale(1.5)
-	}
+	}	

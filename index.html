@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
 	 crossorigin="anonymous">
 	<link rel="shortcut icon" href="./images/favicon.ico" />
+	<link rel="stylesheet" href="./glide-3.2.6/dist/css/glide.core.css">
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
@@ -59,8 +60,44 @@
 						https://personal.seanbwhite.com
 					</a>
 				</div>
-				<div class="col-6 col-12-medium imp-medium pop-up">
-					<span class="image fit"><img src="images/pcpart1.PNG" alt="" /></span>
+				<div class="col-6 col-12-medium imp-medium pop-up">					
+					<div class="glide" style="border:1px solid black">
+							<div class="glide__track" data-glide-el="track" style="margin:1rem">
+								<ul class="glide__slides">
+									<li class="glide__slide">
+											<span class="image fit"><img src="images/2019-03-19 16_21_38-Pick Parts. Build Your PC. Compare and Share. -PCPartPicker.png" alt="" /></span>								
+											<div style="display:flex; justify-content:center">												
+													Landing												
+											</div>
+									</li>
+									<li class="glide__slide">
+											<span class="image fit"><img src="images\2019-03-19 16_25_18-Pick Parts. Build Your PC. Compare and Share. -PCPartPicker.png" alt="" /></span>								
+											<div style="display:flex; justify-content:center">												
+													Authentication										
+											</div>
+									</li>
+									<li class="glide__slide">
+											<span class="image fit"><img src="images\2019-03-19 16_28_06-Pick Parts. Build Your PC. Compare and Share. -PCPartPicker.png" alt="" /></span>								
+											<div style="display:flex; justify-content:center;">												
+													Database										
+											</div>
+									</li>
+									<li class="glide__slide">
+											<span class="image fit"><img src="images\2019-03-19 16_34_13-Pick Parts. Build Your PC. Compare and Share. -PCPartPicker.png" alt="" /></span>								
+											<div style="display:flex; justify-content:center;">												
+													Dropdown									
+											</div>
+									</li>
+								</ul>
+							</div>
+							<div class="glide">																	
+									<div class="glide__arrows" data-glide-el="controls" style="display:flex; justify-content:center; margin: 1rem 0">
+										<button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+										<button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+									</div>
+								</div>
+						</div>
+
 				</div>
 			</div>
 		</div>
@@ -93,7 +130,42 @@
 					</a>
 				</div>
 				<div class="col-6 col-12-medium imp-medium pop-up">
-					<!-- <span class="image fit"><img src="images/group1.PNG" alt="" /></span> -->					
+						
+					<div class="glides" style="border:1px solid black">
+						<div class="glide__track" data-glide-el="track">
+							<ul class="glide__slides">
+								<li class="glide__slide">
+										<span class="image fit"><img src="images/group1.PNG" alt="" /></span>
+										<div style="display:flex; justify-content:center">												
+												Landing												
+										</div>
+								</li>
+								<li class="glide__slide">
+										<span class="image fit"><img src="images\2019-03-19 16_33_19-BiPolar News - Liberal and Conservative News Sources for you to compare and cont.png" alt="" /></span>
+										<div style="display:flex; justify-content:center">												
+												Mobile Friendly										
+										</div>
+								</li>
+								<li class="glide__slide">
+										<span class="image fit"><img src="images\2019-03-19 16_33_39-BiPolar News - Liberal and Conservative News Sources for you to compare and cont.png" alt="" /></span>										
+										<div style="display:flex; justify-content:center">												
+												Articles												
+										</div>
+								</li>
+								<li class="glide__slide">
+										<span class="image fit"><img src="images\2019-03-19 16_33_55-BiPolar News - Liberal and Conservative News Sources for you to compare and cont.png" alt="" /></span><div style="display:flex; justify-content:center">												
+												Vote modal 										
+										</div>
+								</li>
+							</ul>
+						</div>
+						<div class="glides">															
+								<div class="glide__arrows" data-glide-el="controls" style="display:flex; justify-content:center; margin: 1rem 0">
+									<button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+									<button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+								</div>
+							</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -314,6 +386,12 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="./glide-3.2.6/dist/glide.min.js"></script>
+
+	<script>
+		new Glide('.glide').mount()
+		new Glide('.glides').mount()
+	</script>
 
 </body>
 
